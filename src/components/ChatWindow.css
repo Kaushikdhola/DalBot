@@ -111,8 +111,6 @@
 .message {
   margin-bottom: 15px;
   display: flex;
-  font-weight: bolder;
-  justify-content: flex-end;
 }
 
 .message.user {
@@ -135,12 +133,16 @@
   background-color: #007bff;
   color: #ffffff;
   border-top-right-radius: 0;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 .message.bot .message-content {
   background-color: #e4e6eb;
   color: #000000;
   border-top-left-radius: 0;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 .chat-window.closed {
